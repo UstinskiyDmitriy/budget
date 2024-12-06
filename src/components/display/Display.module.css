@@ -1,0 +1,14 @@
+.display {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  min-height: 50px;
+  text-align: right;
+}
+
+.result {
+  font-size: 18px;
+  color: #888;
+}

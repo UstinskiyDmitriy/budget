@@ -1,0 +1,37 @@
+.income {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #32a75173;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.expenses {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #8b282873;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.delete_button_income {
+  margin-block-start: 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(234, 189, 105)
+}
+
+.delete_button_expenses {
+  margin-block-start: 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(234, 189, 105)
+}
