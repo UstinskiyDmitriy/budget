@@ -31,7 +31,7 @@ export default function Income() {
       <div className={styles.today}>
         <p>Заработано сегодня: {incomeRecords.reduce((acc, record) => acc + record.amount, 0)} ₽</p>
       </div>
-      <History title={'Открыть историю доходов'}>
+      <History title={'историю доходов'}>
       <div style={{ display: 'flex', flexDirection:'column-reverse', gap: '15px', width:'100%' }}>
       {incomeRecords.length === 0 && (
           <span style={{textAlign:'center', fontSize:'22px'}}>Добавьте статью доходов</span>

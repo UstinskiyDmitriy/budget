@@ -1,20 +1,21 @@
 .income {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
   background-color: #32a75173;
-  font-size: 18px;
-  padding: 10px;
+  font-size: 16px;
+  padding: 5px;
   border-radius: 10px;
+  
 }
 
 .expenses {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
   background-color: #8b282873;
-  font-size: 18px;
-  padding: 10px;
+  font-size: 16px;
+  padding: 5px;
   border-radius: 10px;
 }
 

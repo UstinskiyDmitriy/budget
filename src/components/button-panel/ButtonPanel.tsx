@@ -11,7 +11,7 @@ export default function ButtonsPanel({ onInput, onCalculate, onClear }: ButtonsP
     [1, 4, 7, "="],
     [2, 5, 8, "C"],
     [3, 6, 9, 0],
-    ["+", "-", "*", "/"],
+    ["+", "-", "x", "/"],
   ];
 
   return (

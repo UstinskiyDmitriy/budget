@@ -32,7 +32,7 @@ export default function Expenses() {
         <p>Потрачено сегодня: {expenseRecords.reduce((acc, record) => acc + record.amount, 0)} ₽</p>
       </div>
 
-      <History title={'Открыть историю расходов'}>
+      <History title={'историю расходов'}>
       <div style={{ display: 'flex', flexDirection:'column-reverse', gap: '15px', width:'100%' }}>
         {expenseRecords.length === 0 && (
           <span style={{textAlign:'center', fontSize:'22px'}}>Добавьте статью расходов</span>

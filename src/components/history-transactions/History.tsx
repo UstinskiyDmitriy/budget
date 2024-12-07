@@ -13,7 +13,7 @@ export default function History({title, children}: HistoryProps) {
   }
   return (
     <div className={styles.main}>
-      <h2 onClick={open} className={styles.title}>{title}</h2>
+      <h2 onClick={open} className={styles.title}>{`${!isOpen ? 'Открыть' : 'Закрыть'} ${title}`}</h2>
       {isOpen && (
         <div className={styles.card_container}>
         {children}

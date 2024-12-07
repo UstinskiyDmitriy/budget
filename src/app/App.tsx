@@ -1,5 +1,5 @@
 import styles from './App.module.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import NavBar from '../components/nav-bar/NavBar';
 import Header from '../components/header/Header';
 import Balance from '../components/balance/Balance';
@@ -11,17 +11,21 @@ import Income from '../pages/income/Income';
 function App() {
 
   return (
-    <Router>
+    <>
+      <Router>
       <Header />
       <Balance />
       <NavBar />
       <main className={styles.main}>
         <Routes>
+        <Route path="/" element={<Navigate to="/expenses" replace />} />
           <Route path="/expenses" element={<Expenses />} />
           <Route path="/income" element={<Income />} />
         </Routes>
       </main>
     </Router>
+    </>
+  
   );
 }
 
