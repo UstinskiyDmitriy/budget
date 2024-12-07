@@ -29,7 +29,7 @@ export default function Header() {
       <div className={styles.wrapper}>
         <div></div>
         <div><p className={styles.title}>{title}</p></div>
-        <ChartPie/>
+        <ChartPie className={styles.chart}/>
       </div>
     </header>
   )
