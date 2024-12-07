@@ -5,7 +5,7 @@
 
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
 }
@@ -13,9 +13,4 @@
 .title {
   font-size: 20px;
   font-weight: bold;
-}
-
-.chart {
-  position: absolute;
-  right: 20px;
 }
