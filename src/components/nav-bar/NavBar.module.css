@@ -36,17 +36,17 @@
 }
 
 .activeExpenses {
-  color: rgb(201, 52, 52);
+  color: rgb(243, 121, 121);
 }
 
 .activeIncome {
-  color: rgb(43, 206, 43);
+  color: rgb(120, 250, 120);
 }
 
 .activeGoals {
-  color: blue;
+  color: rgb(141, 141, 255);
 }
 
 .activeMenu {
-  color: orange;
+  color: rgb(248, 196, 99);
 }
